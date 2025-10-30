@@ -1,0 +1,8 @@
+DEVICE_ID=esp32-01
+DEVICE_SECRET=changeme_device_secret
+API_BASE=http://10.185.103.121/kehadiran/web/api
+WIFI_SSID=Redmi Note 9 Pro
+WIFI_PASS=anamganteng123
+ALLOW_OFFLINE=true
+SCAN_DEBOUNCE_MS=2000
+BATCH_SIZE=20

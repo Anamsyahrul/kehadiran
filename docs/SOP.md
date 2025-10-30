@@ -1,0 +1,1 @@
+# SOP Singkat Operasional\n\n- Sebelum jam masuk: cek perangkat aktif, Wi-Fi OK.\n- Selama jam masuk: pantau dashboard keterlambatan.\n- Akhir minggu: lakukan backup via /public/backup.php.\n- Setiap bulan: review laporan dan sesuaikan pengaturan late threshold/libur.\n

@@ -1,0 +1,1 @@
+# Wiring ESP32 - RC522 (SPI)\n\n- SDA/SS -> GPIO5\n- RST    -> GPIO27\n- SCK    -> GPIO18\n- MOSI   -> GPIO23\n- MISO   -> GPIO19\n- 3V3 dan GND sesuai modul\n

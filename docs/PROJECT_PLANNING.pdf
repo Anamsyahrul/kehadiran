@@ -1,0 +1,935 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Length 3989 >>
+stream
+BT
+/F2 20 Tf
+1 0 0 1 56.00 771.89 Tm
+(Perencanaan Proyek Perangkat Lunak) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 56.00 739.89 Tm
+(Sistem Kehadiran RFID Enterprise) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 713.89 Tm
+(---) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 56.00 691.89 Tm
+(1. Observasi pada Estimasi) Tj
+ET
+0.7 w
+56.00 679.89 m 539.28 679.89 l S
+56.00 653.89 m 539.28 653.89 l S
+56.00 585.89 m 539.28 585.89 l S
+56.00 531.89 m 539.28 531.89 l S
+56.00 477.89 m 539.28 477.89 l S
+56.00 437.89 m 539.28 437.89 l S
+56.00 383.89 m 539.28 383.89 l S
+56.00 679.89 m 56.00 377.89 l S
+205.85 679.89 m 205.85 377.89 l S
+372.57 679.89 m 372.57 377.89 l S
+539.28 679.89 m 539.28 377.89 l S
+BT
+/F1 11 Tf
+1 0 0 1 62.00 659.89 Tm
+(**Elemen**) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 659.89 Tm
+(**Observasi Utama**) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 659.89 Tm
+(**Dampak terhadap Estimasi**) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 633.89 Tm
+(Kompleksitas Fungsional) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 633.89 Tm
+(Modul web \(dashboard,) Tj
+0 -14 Td
+(laporan, konfigurasi\)) Tj
+0 -14 Td
+(terintegrasi dengan perangkat) Tj
+0 -14 Td
+(IoT \(ESP32\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 633.89 Tm
+(Estimasi dipisah per domain:) Tj
+0 -14 Td
+(backend, frontend, firmware,) Tj
+0 -14 Td
+(dokumentasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 565.89 Tm
+(Ketergantungan Eksternal) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 565.89 Tm
+(Bergantung jaringan Wi-Fi,) Tj
+0 -14 Td
+(server PHP/MySQL, dan) Tj
+0 -14 Td
+(perangkat RFID fisik) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 565.89 Tm
+(Sisipkan buffer untuk uji) Tj
+0 -14 Td
+(lapangan & debugging hardware) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 511.89 Tm
+(Tim Pengembang) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 511.89 Tm
+(Kombinasi dev web & embedded) Tj
+0 -14 Td
+(dengan tingkat pengalaman) Tj
+0 -14 Td
+(berbeda) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 511.89 Tm
+(Perlu jadwal sinkronisasi) Tj
+0 -14 Td
+(lintas disiplin dan waktu) Tj
+0 -14 Td
+(onboarding) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 457.89 Tm
+(Ketersediaan Data) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 457.89 Tm
+(Data siswa/perangkat belum) Tj
+0 -14 Td
+(rapi pada awal implementasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 457.89 Tm
+(Alokasikan effort import &) Tj
+0 -14 Td
+(validasi data) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 417.89 Tm
+(Perubahan Kebijakan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 417.89 Tm
+(Jadwal libur, prosedur) Tj
+0 -14 Td
+(kehadiran dapat berubah) Tj
+0 -14 Td
+(sewaktu-waktu) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 417.89 Tm
+(Fitur & dokumentasi harus) Tj
+0 -14 Td
+(mudah diubah; tambah cadangan) Tj
+0 -14 Td
+(estimasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 363.89 Tm
+(**Langkah mitigasi estimasi**) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 341.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 341.89 Tm
+(Gunakan *three-point estimation* \(optimistis, realistis, pesimistis\) untuk fitur mayor.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 321.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 321.89 Tm
+(Sisihkan cadangan waktu \(contingency\) ±15% untuk perubahan kebijakan & regresi hardware.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 301.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 301.89 Tm
+(Lakukan *prototype spike* untuk fitur yang pertama kali digarap \(contoh: notifikasi) Tj
+0 -14 Td
+(otomatis lintas kanal\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 267.89 Tm
+(---) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 56.00 245.89 Tm
+(2. Tujuan Perencanaan Proyek) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 219.89 Tm
+(1. Menyediakan rencana terintegrasi antara tim perangkat lunak dan tim perangkat IoT. 2.) Tj
+0 -14 Td
+(Menghasilkan jadwal realistis yang meminimalkan downtime sistem kehadiran. 3. Menjamin) Tj
+0 -14 Td
+(setiap kebutuhan sekolah \(hari libur fleksibel, laporan, notifikasi\) terpetakan dalam) Tj
+0 -14 Td
+(backlog. 4. Menetapkan baseline kualitas: standar kode, pengujian, dan dokumentasi) Tj
+0 -14 Td
+(hardware/software. 5. Menyusun mekanisme monitoring progres dan manajemen risiko selama) Tj
+0 -14 Td
+(implementasi.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 127.89 Tm
+(---) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 56.00 105.89 Tm
+(3. Ruang Lingkup Perangkat Lunak) Tj
+ET
+endstream
+endobj
+4 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 3 0 R >>
+endobj
+5 0 obj
+<< /Length 4406 >>
+stream
+0.7 w
+56.00 785.89 m 539.28 785.89 l S
+56.00 759.89 m 539.28 759.89 l S
+56.00 677.89 m 539.28 677.89 l S
+56.00 623.89 m 539.28 623.89 l S
+56.00 555.89 m 539.28 555.89 l S
+56.00 515.89 m 539.28 515.89 l S
+56.00 461.89 m 539.28 461.89 l S
+56.00 785.89 m 56.00 455.89 l S
+205.85 785.89 m 205.85 455.89 l S
+372.57 785.89 m 372.57 455.89 l S
+539.28 785.89 m 539.28 455.89 l S
+BT
+/F1 11 Tf
+1 0 0 1 62.00 765.89 Tm
+(Domain) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 765.89 Tm
+(Lingkup Pengembangan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 765.89 Tm
+(Catatan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 739.89 Tm
+(Backend \(PHP\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 739.89 Tm
+(API ingest + device config) Tj
+0 -14 Td
+(HMAC, manajemen pengguna,) Tj
+0 -14 Td
+(laporan, pengaturan hari) Tj
+0 -14 Td
+(libur mingguan, sistem) Tj
+0 -14 Td
+(notifikasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 739.89 Tm
+(Fokus pada keamanan \(HMAC,) Tj
+0 -14 Td
+(CSRF, audit log\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 657.89 Tm
+(Frontend \(Bootstrap\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 657.89 Tm
+(Dashboard real-time, laporan) Tj
+0 -14 Td
+(analitik, form pengaturan,) Tj
+0 -14 Td
+(dokumentasi interaktif) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 657.89 Tm
+(Responsif untuk) Tj
+0 -14 Td
+(admin/guru/siswa.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 603.89 Tm
+(Firmware \(ESP32 + RC522\)) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 603.89 Tm
+(Pembacaan RFID, caching) Tj
+0 -14 Td
+(offline, sinkron konfigurasi) Tj
+0 -14 Td
+(server, indikator) Tj
+0 -14 Td
+(OLED/LED/buzzer) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 603.89 Tm
+(Konfigurasi via `config.h`,) Tj
+0 -14 Td
+(queue microSD, retry logic.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 535.89 Tm
+(Dokumentasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 535.89 Tm
+(Panduan pemasangan, firmware,) Tj
+0 -14 Td
+(wiring, troubleshooting) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 535.89 Tm
+(Format Markdown + halaman) Tj
+0 -14 Td
+(dokumentasi web.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 495.89 Tm
+(DevOps) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 211.85 495.89 Tm
+(Backup & restore data, skrip) Tj
+0 -14 Td
+(seed pengujian, monitoring) Tj
+0 -14 Td
+(log) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 378.57 495.89 Tm
+(Termasuk check error) Tj
+0 -14 Td
+(Apache/PHP dan cron backup.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 441.89 Tm
+(*Out of scope \(fase ini\)*: integrasi SMS gateway, aplikasi mobile native, modul pembayaran.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 419.89 Tm
+(---) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 56.00 397.89 Tm
+(4. Sumber Daya) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 371.89 Tm
+(### 4.1 Sumber Daya Manusia) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 349.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 349.89 Tm
+(**Project Manager / Scrum Master** ? koordinasi backlog & timeline.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 329.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 329.89 Tm
+(**Backend Engineer \(PHP/MySQL\)** ? API, keamanan, laporan.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 309.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 309.89 Tm
+(**Frontend Engineer** ? UI responsif, UX dokumentasi.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 289.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 289.89 Tm
+(**Firmware Engineer** ? C++/Arduino, integrasi hardware.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 269.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 269.89 Tm
+(**QA Engineer** ? testing fungsional & lapangan.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 249.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 249.89 Tm
+(**Teknisi Lapangan** ? instalasi perangkat, pemeliharaan fisik.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 229.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 229.89 Tm
+(**Admin Sekolah \(SME\)** ? validasi kebutuhan domain & uji terima.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 209.89 Tm
+(### 4.2 Perangkat Keras & Lunak) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 187.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 187.89 Tm
+(Server \(atau VM\) dengan PHP 8+, MySQL 10.4+, Apache/Nginx.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 167.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 167.89 Tm
+(ESP32 DevKit v1, modul MFRC522, microSD + modul, OLED SSD1306, RTC DS3231, LED & buzzer.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 147.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 147.89 Tm
+(Laptop untuk upload firmware \(Arduino IDE / PlatformIO\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 127.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 127.89 Tm
+(Software pendukung: Git, VS Code, Postman, tool testing jaringan.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 107.89 Tm
+(---) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 56.00 85.89 Tm
+(5. Estimasi Proyek Perangkat Lunak) Tj
+ET
+endstream
+endobj
+6 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 5 0 R >>
+endobj
+7 0 obj
+<< /Length 3316 >>
+stream
+BT
+/F1 11 Tf
+1 0 0 1 56.00 771.89 Tm
+(### 5.1 Tugas Utama & Estimasi Effort) Tj
+ET
+0.7 w
+56.00 763.89 m 539.28 763.89 l S
+56.00 737.89 m 539.28 737.89 l S
+56.00 697.89 m 539.28 697.89 l S
+56.00 643.89 m 539.28 643.89 l S
+56.00 603.89 m 539.28 603.89 l S
+56.00 549.89 m 539.28 549.89 l S
+56.00 495.89 m 539.28 495.89 l S
+56.00 455.89 m 539.28 455.89 l S
+56.00 415.89 m 539.28 415.89 l S
+56.00 763.89 m 56.00 409.89 l S
+224.91 763.89 m 224.91 409.89 l S
+412.83 763.89 m 412.83 409.89 l S
+539.28 763.89 m 539.28 409.89 l S
+BT
+/F1 11 Tf
+1 0 0 1 62.00 743.89 Tm
+(**Fase**) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 230.91 743.89 Tm
+(**Deliverable Kunci**) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 418.83 743.89 Tm
+(**Durasi \(hari\)**) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 717.89 Tm
+(Analisis + Perencanaan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 230.91 717.89 Tm
+(Requirement final, backlog) Tj
+0 -14 Td
+(prioritas, rencana sprint) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 418.83 717.89 Tm
+(5) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 677.89 Tm
+(Pengembangan Backend) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 230.91 677.89 Tm
+(Endpoint ingest & device config) Tj
+0 -14 Td
+(\(HMAC\), manajemen pengaturan,) Tj
+0 -14 Td
+(laporan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 418.83 677.89 Tm
+(15) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 623.89 Tm
+(Pengembangan Frontend) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 230.91 623.89 Tm
+(Dashboard real-time, UI) Tj
+0 -14 Td
+(pengaturan, halaman dokumentasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 418.83 623.89 Tm
+(10) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 583.89 Tm
+(Firmware & Hardware Test) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 230.91 583.89 Tm
+(Update firmware \(HMAC, weekly) Tj
+0 -14 Td
+(holiday\), validasi queue, uji) Tj
+0 -14 Td
+(lapangan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 418.83 583.89 Tm
+(12) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 529.89 Tm
+(Integrasi & QA) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 230.91 529.89 Tm
+(Pengujian end-to-end web +) Tj
+0 -14 Td
+(perangkat, regression, perbaikan) Tj
+0 -14 Td
+(bug) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 418.83 529.89 Tm
+(8) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 475.89 Tm
+(Dokumentasi & Training) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 230.91 475.89 Tm
+(Panduan admin, manual instalasi) Tj
+0 -14 Td
+(hardware, materi pelatihan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 418.83 475.89 Tm
+(5) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 435.89 Tm
+(Buffer Risiko) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 230.91 435.89 Tm
+(Cadangan untuk perubahan) Tj
+0 -14 Td
+(requirement / isu perangkat) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 418.83 435.89 Tm
+(5) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 395.89 Tm
+(**Total estimasi** ? **60** hari kerja \(±12 minggu, asumsi 5 hari kerja/minggu\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 373.89 Tm
+(### 5.2 Jadwal Tingkat Tinggi 1. **Sprint 0 \(2 minggu\):** finalisasi requirement, setup) Tj
+0 -14 Td
+(environment, baseline firmware + API. 2. **Sprint 1 \(2 minggu\):** fitur pengaturan libur) Tj
+0 -14 Td
+(mingguan, notifikasi otomatis, UI pengaturan. 3. **Sprint 2 \(2 minggu\):** dashboard &) Tj
+0 -14 Td
+(laporan, dokumentasi firmware terbaru. 4. **Sprint 3 \(2 minggu\):** uji lapangan perangkat,) Tj
+0 -14 Td
+(optimasi queue, revisi docs. 5. **Sprint 4 \(2 minggu\):** QA regresi, training user, release) Tj
+0 -14 Td
+(candidate. 6. **Stabilisasi \(2 minggu\):** pilot run, bugfix, prepare Go-Live.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 281.89 Tm
+(---) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 56.00 259.89 Tm
+(6. Manajemen Proyek Perangkat Lunak yang Efektif) Tj
+ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 7 0 R >>
+endobj
+9 0 obj
+<< /Length 3171 >>
+stream
+0.7 w
+56.00 785.89 m 539.28 785.89 l S
+56.00 759.89 m 539.28 759.89 l S
+56.00 719.89 m 539.28 719.89 l S
+56.00 679.89 m 539.28 679.89 l S
+56.00 639.89 m 539.28 639.89 l S
+56.00 599.89 m 539.28 599.89 l S
+56.00 559.89 m 539.28 559.89 l S
+56.00 519.89 m 539.28 519.89 l S
+56.00 479.89 m 539.28 479.89 l S
+56.00 439.89 m 539.28 439.89 l S
+56.00 785.89 m 56.00 433.89 l S
+235.23 785.89 m 235.23 433.89 l S
+539.28 785.89 m 539.28 433.89 l S
+BT
+/F1 11 Tf
+1 0 0 1 62.00 765.89 Tm
+(**Area**) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 241.23 765.89 Tm
+(**Praktik yang Dianjurkan**) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 739.89 Tm
+(Metodologi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 241.23 739.89 Tm
+(Scrum/Kanban hybrid: sprint 2 minggu, board terpisah) Tj
+0 -14 Td
+(untuk tugas hardware) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 699.89 Tm
+(Komunikasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 241.23 699.89 Tm
+(Daily stand-up lintas tim \(?10 menit\); sprint review) Tj
+0 -14 Td
+(melibatkan admin sekolah; laporan risiko mingguan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 659.89 Tm
+(Pengendalian Perubahan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 241.23 659.89 Tm
+(Gunakan RFC ringan; perubahan mayor = update backlog +) Tj
+0 -14 Td
+(revisi estimasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 619.89 Tm
+(Manajemen Risiko) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 241.23 619.89 Tm
+(Daftar risiko \(hardware delay, jaringan, perubahan) Tj
+0 -14 Td
+(kebijakan\) + trigger & mitigasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 579.89 Tm
+(Quality Assurance) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 241.23 579.89 Tm
+(Coding standard \(PHP-CS-Fixer\), unit test API,) Tj
+0 -14 Td
+(regression web manual, uji perangkat onsite) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 539.89 Tm
+(Dokumentasi) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 241.23 539.89 Tm
+(Repository `docs/` + halaman dokumentasi web; update) Tj
+0 -14 Td
+(tiap ada perubahan firmware/pengaturan kritikal) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 499.89 Tm
+(Monitoring) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 241.23 499.89 Tm
+(Pantau log server \(access/error\), metrik jumlah tap &) Tj
+0 -14 Td
+(antrean offline; manfaatkan dashboard internal) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 62.00 459.89 Tm
+(Onboarding/Training) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 241.23 459.89 Tm
+(Pelatihan admin/guru mengenai pengaturan perangkat, hari) Tj
+0 -14 Td
+(libur, backup & restore) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 419.89 Tm
+(---) Tj
+ET
+BT
+/F2 14 Tf
+1 0 0 1 56.00 397.89 Tm
+(7. Catatan Lanjutan) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 371.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 371.89 Tm
+(Pastikan secret device diganti per unit dan disimpan aman \(audit log mencatat perubahan\).) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 351.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 351.89 Tm
+(Rencanakan sprint khusus untuk integrasi channel notifikasi tambahan \(email/SMS\) bila) Tj
+0 -14 Td
+(dibutuhkan.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 317.89 Tm
+(-) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 74.00 317.89 Tm
+(Evaluasi kapasitas hardware \(ESP32\) jika beban queue dan modul tambahan \(mis. sensor) Tj
+0 -14 Td
+(pintu\) meningkat.) Tj
+ET
+BT
+/F1 11 Tf
+1 0 0 1 56.00 283.89 Tm
+(Dokumen ini dapat dijadikan baseline dan diperbarui setelah setiap sprint review untuk) Tj
+0 -14 Td
+(menjaga akurasi estimasi serta kepatuhan terhadap kebutuhan sekolah.) Tj
+ET
+endstream
+endobj
+10 0 obj
+<< /Type /Page /Parent 11 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 9 0 R >>
+endobj
+11 0 obj
+<< /Type /Pages /Kids [4 0 R 6 0 R 8 0 R 10 0 R] /Count 4 >>
+endobj
+12 0 obj
+<< /Type /Catalog /Pages 11 0 R >>
+endobj
+xref
+0 13
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000004195 00000 n 
+0000004338 00000 n 
+0000008796 00000 n 
+0000008939 00000 n 
+0000012307 00000 n 
+0000012450 00000 n 
+0000015673 00000 n 
+0000015817 00000 n 
+0000015894 00000 n 
+trailer << /Size 13 /Root 12 0 R >>
+startxref
+15945
+%%EOF
