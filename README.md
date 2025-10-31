@@ -51,13 +51,14 @@ kehadiran/
 ## Persiapan Lingkungan
 
 1. **Instalasi yang disarankan**
+
    - PHP 8.0+ (aktifkan `pdo_mysql`, `mbstring`, `openssl`, `curl`)
    - MySQL/MariaDB 10.4+
    - Apache/Nginx (contoh: XAMPP/LAMPP)
 
 2. **Kloning repository**
    ```bash
-   git clone https://github.com/<USERNAME>/kehadiran.git
+   git clone https://github.com/Anamsyahrul/kehadiran.git
    cd kehadiran
    ```
 
@@ -65,8 +66,9 @@ kehadiran/
 
 ## Konfigurasi & Setup
 
-1. **Atur kredensial database**  
+1. **Atur kredensial database**
    Edit `web/config.php`:
+
    ```php
    'DB_HOST' => '127.0.0.1',
    'DB_NAME' => 'kehadiran_db',
@@ -76,12 +78,15 @@ kehadiran/
    ```
 
 2. **Buat database & jalankan migrasi**
+
    ```bash
    php web/setup/scripts/create_database.php
    ```
+
    atau akses `http://localhost/kehadiran/web/create_db.php`
 
 3. **Opsional: Seed data contoh**
+
    ```bash
    php web/setup/scripts/seed_sample_data.php
    ```
@@ -95,11 +100,11 @@ kehadiran/
 
 ## Kredensial Bawaan
 
-| Peran      | Username        | Password   |
-|------------|-----------------|------------|
-| Admin      | `admin`         | `admin`    |
-| Guru (sample) | `Dr. Muhammad Ali` | `guru123` |
-| Siswa (sample) | `Ahmad Fauzi`     | `siswa123` |
+| Peran          | Username           | Password   |
+| -------------- | ------------------ | ---------- |
+| Admin          | `admin`            | `admin`    |
+| Guru (sample)  | `Dr. Muhammad Ali` | `guru123`  |
+| Siswa (sample) | `Ahmad Fauzi`      | `siswa123` |
 
 > Pengguna baru yang dibuat via halaman **Manajemen Siswa** otomatis menggunakan **nama lengkap** sebagai username. Jika kolom password dibiarkan kosong saat aktivasi pertama, sistem mengisi password default sesuai peran (siswa/guru).
 
@@ -131,7 +136,7 @@ Tersedia di `web/setup/` (lihat `web/setup/README.md`):
 
 ## Akses Aplikasi
 
-Setelah setup selesai:  
+Setelah setup selesai:
 👉 `http://localhost/kehadiran/web/public/login.php`
 
 Gunakan akun bawaan atau akun baru yang sudah dibuat.
